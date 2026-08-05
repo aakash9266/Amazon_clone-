@@ -1505,3 +1505,68 @@ a{
   color: #111;
   margin-top: 6px;
 }
+
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .nav-left{
+        justify-content:center;
+    }
+
+    .nav-fill{
+        width:100%;
+    }
+
+    .search-dropdown-box{
+        display:none;
+    }
+
+    .search-input{
+        width:100%;
+    }
+
+    .nav-language,
+    .nav-account,
+    .nav-link{
+        display:none;
+    }
+
+    .nav-cart{
+        justify-content:center;
+    }
+
+    .subnav-links{
+        overflow-x:auto;
+        white-space:nowrap;
+    }
+
+    .subnav-links::-webkit-scrollbar{
+        display:none;
+    }
+
+    .hero{
+        height:220px;
+    }
+
+    .shop-section{
+        grid-template-columns:1fr;
+    }
+
+    .card-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .footer-columns{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
